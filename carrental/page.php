@@ -84,7 +84,9 @@ foreach($results as $result)
 
 
       <h2><?php   echo htmlentities($result->PageName); ?></h2>
-      <p><?php  echo $result->detail; ?> </p>
+      <p>Welcome to CarScape - Where Your Journey Begins!<br>
+   At CarScape, we're more than just a car rental service. We're your travel companion, your exploration partner, and your gateway to unforgettable adventures. Our mission is simple: to make your journey exceptional.</p>
+
     </div>
    <?php } }?>
   </div>

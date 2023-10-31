@@ -856,7 +856,7 @@ table thead th, table thead td {
   position: relative;
 }
 #header-search-form::after {
-  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #ffffff;
+  border-color: rgba(0, 0, 254, 0) rgba(0, 0, 254, 0) #555;
   border-style: solid;
   border-width: 7px;
   content: "";
@@ -933,7 +933,7 @@ table thead th, table thead td {
 	2.1 Navigation & Dropdown Menu
 ------------------------------------------*/
 #navigation_bar {
-  background: #111111 none repeat scroll 0 0;
+  background: #b11717 none repeat scroll 0 0;
   border-radius: 0;
   padding: 0;
 }
@@ -1072,7 +1072,7 @@ nav.navbar {
   position: relative;
 }
 .banner-section::after {
-  background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+  background: rgba(151, 72, 100, 0.432) none repeat scroll 0 0;
   bottom: 0;
   content: "";
   height: 7px;

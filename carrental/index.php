@@ -190,11 +190,22 @@ foreach($results as $result)
           <div class="testimonial-img"> <img src="assets/images/cat-profile.png" alt="" /> </div>
           <div class="testimonial-content">
             <div class="testimonial-heading">
-              <h5><?php echo htmlentities($result->FullName);?></h5>
-            <p><?php echo htmlentities($result->Testimonial);?></p>
+              <h5><?php echo htmlentities("FARIDA");?></h5>
+              <p><?php echo htmlentities("CarScape is the go-to place for rental cars. The options they offer are incredible, and their prices are unbeatable. I won't look elsewhere for my car rental needs.");?></p>
+            </div>
           </div>
         </div>
+
+        <div class="testimonial-m">
+          <div class="testimonial-img"> <img src="assets/images/cat-profile.png" alt="" /> </div>
+          <div class="testimonial-content">
+            <div class="testimonial-heading">
+              <h5><?php echo htmlentities("SAWADOGO");?></h5>
+              <p><?php echo htmlentities("From start to finish, CarScape exceeded my expectations. Their original selection of cars, along with their outstanding customer service, made my vacation a breeze.");?></p>
+            </div>
+          </div>
         </div>
+
         <?php }} ?>
         
        
